@@ -3,20 +3,22 @@
   Smart Garbage Monitoring System en utilisant CoT
 </h1>
 <h3 style="text-align: center;">
-  Application de Cloud of Things sur le Smart Garbage Monitoring System
+  Dans le cadre du module Cloud Of Things, ce projet est réalisé en collaboration de:
 </h3>
+<ul>
+    <li>Ines Boughariou</li>
+    <li>Malek Abbes</li>
+</ul>
+
 <div style="text-align: center;">
   <h4>
     <!-- <a href="#Context">Context</a> | --> 
   </h4>
 </div>
 <br>
-<h2>
-Ce projet est réalisé par:
+<h3>
 
-Ines Boughariou
-Malek Abbes
-</h2>
+</h3>
 
 
 ## Contexte
