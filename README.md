@@ -9,17 +9,12 @@
     <li>Ines Boughariou</li>
     <li>Malek Abbes</li>
 </ul>
-
 <div style="text-align: center;">
   <h4>
     <!-- <a href="#Context">Context</a> | --> 
   </h4>
 </div>
 <br>
-<h3>
-
-</h3>
-
 
 ## Contexte
 Ce projet vise à prototyper un Smart Garabage Monitoring System avec autant d'appareils et d'objets connectés que possible. Un autre objectif est de donner aux autoritaires des municipalités un contrôle des dechets pour assurer la propreté dans les villes. Les objectifs de ce projet sont brièvement :
