@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/platform/jakarta.jakartaee-api/9.1.0/jakarta.jakartaee-api-9.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jnosql/artemis/artemis-document/1.0.0-b2/artemis-document-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jnosql/diana/diana-document/1.0.0-b2/diana-document-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jnosql/diana/diana-core/1.0.0-b2/diana-core-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/nosql/communication/communication-core/1.0.0-b2/communication-core-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jnosql/diana/diana-query/1.0.0-b2/diana-query-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/nosql/communication/communication-query/1.0.0-b2/communication-query-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/nosql/communication/communication-document/1.0.0-b2/communication-document-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jnosql/artemis/artemis-core/1.0.0-b2/artemis-core-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/nosql/mapping/mapping-core/1.0.0-b2/mapping-core-1.0.0-b2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/nosql/mapping/mapping-document/1.0.0-b2/mapping-document-1.0.0-b2.jar"/>
+</classpath>
