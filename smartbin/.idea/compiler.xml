@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jakartanosql" />
+        <module name="smartbin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jakartanosql" options="-endorseddirs D:\SmartBin_COT\api2\target/endorsed" />
+      <module name="smartbin" options="-endorseddirs D:\SmartBin_COT\smartbin\target/endorsed" />
+    </option>
+  </component>
+</project>

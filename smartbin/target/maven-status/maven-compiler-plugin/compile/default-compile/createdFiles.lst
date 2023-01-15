@@ -1,0 +1,10 @@
+tn\supcom\cot\JAXRSConfiguration.class
+tn\supcom\cot\enumer\UserRoles.class
+tn\supcom\cot\DocumentManagerProducer.class
+tn\supcom\cot\PersonResource.class
+tn\supcom\cot\models\User.class
+tn\supcom\cot\FieldPropertyVisibilityStrategy.class
+tn\supcom\cot\Person.class
+tn\supcom\cot\ressources\UserRessource.class
+tn\supcom\cot\repositories\UserRepository.class
+tn\supcom\cot\PersonRepository.class
