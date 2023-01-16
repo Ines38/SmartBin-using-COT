@@ -38,6 +38,13 @@ public class Box {
     @Column
     private List<Mesure> mesures;
 
+    public Box(String imei, String reference, Date derniereConnection, List<Mesure> mesures) {
+        this.imei = imei;
+        this.reference = reference;
+        this.derniereConnection = derniereConnection;
+        this.mesures = mesures;
+    }
+
     @Override
     public String toString() {
         return reference + " ["

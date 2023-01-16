@@ -28,7 +28,7 @@ public class Mesure {
 
     @Override
     public String toString() {
-        return "Mesure [id=" + id + ", date=" + date + ", val1=" + val
+        return "mesure [id=" + id + ", date=" + date + ", val1=" + val
                 + ", indicateur=" + indicator + "]";
     }
 }

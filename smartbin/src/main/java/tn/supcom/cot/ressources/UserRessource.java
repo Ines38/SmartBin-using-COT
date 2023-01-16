@@ -38,7 +38,7 @@ public class UserRessource {
 
     @GET
     @Path("email/{email}")
-    public List<User> findByYounger(@PathParam("email") String email) {
+    public List<User> findByEmail(@PathParam("email") String email) {
         return repository.findByEmail(email)
                 .collect(toList());
     }
