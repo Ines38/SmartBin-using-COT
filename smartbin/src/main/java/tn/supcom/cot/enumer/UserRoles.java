@@ -1,6 +1,12 @@
 package tn.supcom.cot.enumer;
 
-public enum UserRoles {
+import java.util.function.Supplier;
+
+public enum UserRoles implements Supplier<String> {
     Client,
-    Administrateur
+    Administrateur;
+    @Override
+    public String get() {
+        return this.name();
+    }
 }

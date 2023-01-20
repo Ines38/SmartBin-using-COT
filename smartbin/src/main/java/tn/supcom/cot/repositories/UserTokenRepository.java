@@ -1,8 +1,9 @@
-package tn.supcom.cot.security;
+package tn.supcom.cot.repositories;
 
 import jakarta.nosql.mapping.Param;
 import jakarta.nosql.mapping.Query;
 import jakarta.nosql.mapping.Repository;
+import tn.supcom.cot.security.UserToken;
 
 import java.util.Optional;
 

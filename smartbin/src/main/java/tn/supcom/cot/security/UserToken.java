@@ -3,23 +3,28 @@ package tn.supcom.cot.security;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
+import tn.supcom.cot.repositories.UserTokenRepository;
 
 import java.util.*;
 
 @Entity
 public class UserToken {
     @Id
-    private String username;
+    private String email;
 
     @Column
     private Set<RefreshToken> tokens;
+
+    UserToken(String email) {
+        this.email = email;
+    }
 
     @Deprecated
     UserToken() {
     }
 
-    public String getUsername() {
-        return username;
+    public String getEmail() {
+        return email;
     }
 
     public Set<RefreshToken> getTokens() {
@@ -65,7 +70,7 @@ public class UserToken {
             return false;
         }
         UserToken userToken = (UserToken) o;
-        return Objects.equals(username, userToken.username);
+        return Objects.equals(email, userToken.email);
     }
 
     private void initiateTokens() {
@@ -76,13 +81,13 @@ public class UserToken {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(username);
+        return Objects.hashCode(email);
     }
 
     @Override
     public String toString() {
         return "UserToken{" +
-                "username='" + username + '\'' +
+                "username='" + email + '\'' +
                 ", tokens=" + tokens +
                 '}';
     }

@@ -11,7 +11,8 @@ public interface BoxRepository {
 
     List<Box> findAll();
 
-    void delete(User userConnected, long id);
+    //void delete(User userConnected, long id);
+    void delete(long id);
 
     Box findById(Long id);
 

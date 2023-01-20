@@ -43,4 +43,10 @@ public class BoxRessource {
     public void save(Box box) {
         boxrepository.saveBox(box);
     }
+
+    @Path("/{id}")
+    @DELETE
+    public void delete(@PathParam("id") long id) {
+        boxrepository.delete(id);
+    }
 }
